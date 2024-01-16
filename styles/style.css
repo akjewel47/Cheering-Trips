@@ -37,26 +37,74 @@
    padding: 80px 70px;
    height: 600px;
   }
+       /* Choose your destination */
+.destination{
+ width: 80%;
+ text-align: center;
+ margin: 0 auto;
+ gap: 20px;
+}
+.destination-title{
+ font-size: 3rem;
+ font-weight: 600;
+ color: #131313;
+}
+.destination-description{
+ color: #727272;
+}
+.destination-img{
+ width: 100%;
+ text-align: center;
+ margin: 0 10px; 
+/* margin-left:20px ;
+ margin-right: ; */
+ padding: 50px auto;
+justify-content: center;
+}
+/* .row{
+font-weight: 500px;
+} */
+
+
 
   /* Responsiv website on small device */
 
   @media screen and (min-width: 600px) and (max-width:992px) {
-   .Popular-tours
- {
-    display: grid;
+ .Popular-tours{
+  display: grid;
+  /* grid-template-columns: auto auto auto auto; */
+ }
+   .destination
+   { display: grid;
+    /* grid-template-columns: max-content; */
     width: 80%;
-    /* font-weight: ; */
     font-size: 1.5rem;
-    /* padding-right: 0px;
-    padding-left: 10px; */
+    padding-left: 10px;  
     padding: 50px 20px;
   }
-  .tours-img{
+  .tours-img,
+  .destination-img{
 width: 100%;
 padding-right: 18px;
 padding-left: 5px;
   }
-  .popular-tours-section {
+  .popular-tours-section,
+  .destination-section {
    width: auto;
   }
+  .row{
+   display: grid;
+   width: 100%;
+  }
+  /* #second-row{
+size: 50px;
+  }
+  */
+.Bangladesh,
+.Bandarban,
+.Kashmir,
+.north-america,
+.Srilanka{
+ width: 100%;
+}
  }
