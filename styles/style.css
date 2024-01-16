@@ -111,19 +111,19 @@ color:  #FF900E;
  margin: 0 10px;
 } 
 
-/* form section styles */
+/* newes late or form section styles */
 .form-section{
  width: 80%;
  justify-content: space-between;
  display: flex;
 margin: 90px 80px 200px;
 gap: 50px;
+padding-left: 70px;
 }
 .container{
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- /* min-width: 50%; */
  display: flex;
  padding-left: 50px;  
  border: 2px solid#FF900E;
@@ -132,7 +132,6 @@ border-radius: 40px;
 }
 .form .input-box {
  width: 100%;
- /* position: relative; */
  height: 50px;
  margin: 30px;
 } 
@@ -179,8 +178,6 @@ input {
 }
 span{
  border-radius: 8px;
- /* background:  #FF900E; */
- /* padding: 20px 40px; */
  margin: 60px ;
  color: #181616;
  font-size: 25px;
@@ -189,25 +186,73 @@ span{
  width: 100%;
  /* padding: 0 0; */
 }
-
-
-
-  /* Responsiv website on small device */
+/* choose us part styles */
+.Handpicked-Hotels,
+.Service,
+.price{
+ width: 50%;
+margin: 90px 80px 100px 50px;
+border: 1px solid #FF900E;
+background: hsl(24, 19%, 95%);
+border-radius: 40px;
+row-gap: -20px;
+}
+.home{
+ width: 50px;
+ margin-top: 80px;
+ margin-left: 30px;
+}
+.Handpicked-Hotels,.Service,.price,h1{
+ color: #131313;
+ font-size: 2rem;
+ font-weight: 500;
+ margin-top: 60px;
+ margin-left: 30px;
+}
+.Handpicked-Hotels,.Service ,.price, p {
+ color: #727272;
+ font-size: 1.5rem;
+ margin-top: 60px;
+ margin-left: 30px;
+ margin-right: 30px;
+}
+.Handpicked-Hotels,.Service , .home{
+gap: 5px;
+}
+.Service{
+ background-color: #c1c4ed;
+}
+.choose-us {
+ width: 80%;
+ display: flex;
+align-items: center;
+padding: 0 60px 240px 200px;
+}
+.price{
+align-items: center; 
+width: 40%;
+margin: 0 auto;
+margin-top:-300px;
+}
+.choose-us-one{
+ /* margin-top: 60px; */
+ margin: 60px 100px;
+}
 
   @media screen and (min-width: 600px) and (max-width:992px) {
  .Popular-tours, 
- .form-section{
+ .form-section,
+ .choose-us{
   display: grid;
-   grid-template-columns: auto ; 
+  grid-template-columns: auto ; 
  }
- main{
+ /* main{
   width: 100%;
   padding: 0;
   margin: 0;
- }
+ } */
    .destination
    { display: grid;
-    /* grid-template-columns: max-content; */
     width: 80%;
     font-size: 1.5rem;
     padding-left: 10px;  
@@ -216,7 +261,7 @@ span{
   .tours-img,
   .destination-img,
   .form-img{
-width: 100%;
+width:90%;
 padding-right: 18px;
 padding-left: 5px;
   }
@@ -225,21 +270,20 @@ padding-left: 5px;
    width: auto;
   }
   .container{
-   width: 80%;
+   width: 90%;
+
   }
-  .form-img ,
-  .form-img{
-    margin: 0 0;
-    padding-left: 0;
+  .form-section{
+   padding-left: 0;
+   margin: 0;
   }
+
+
   .row{
    display: grid;
    width: 100%;
   }
-  /* #second-row{
-size: 50px;
-  }
-  */
+
 .Bangladesh,
 .Bandarban,
 .Kashmir,
