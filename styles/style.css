@@ -42,8 +42,8 @@
  width: 80%;
  text-align: center;
  margin: 0 auto;
- gap: 20px;
 }
+
 .destination-title{
  font-size: 3rem;
  font-weight: 600;
@@ -61,9 +61,57 @@
  padding: 50px auto;
 justify-content: center;
 }
-/* .row{
-font-weight: 500px;
-} */
+
+/* footer section styles */
+footer{
+ margin: 25px auto;
+ padding: 0;
+ box-sizing: border-box;
+ background: #dfd8d8;
+ word-spacing: 100%;
+ padding: 40px;
+ color: #131313;
+}
+.footer-content{
+ display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+.footer-content h3{
+font-size: 2rem;
+font-weight: 500;
+line-height: 3rem;
+font-weight: 700;
+}
+.logo-icon{
+ margin-bottom: -17px;
+ gap: 20px;
+}
+
+.footer-bottom p{
+ max-width: 500px;
+ margin: 10px auto;
+ line-height: 28px;
+ font-size: 28px;
+ text-align: center;
+}
+span{
+color:  #FF900E;
+}
+
+.socials{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 1rem 0 3rem 0;
+ gap: 50px;
+}
+.socials li{
+ list-style: none;
+ margin: 0 10px;
+} 
 
 
 
@@ -92,7 +140,9 @@ padding-left: 5px;
   .destination-section {
    width: auto;
   }
+  
   .row{
+ 
    display: grid;
    width: 100%;
   }
@@ -104,7 +154,13 @@ size: 50px;
 .Bandarban,
 .Kashmir,
 .north-america,
-.Srilanka{
+.Srilanka
+{
  width: 100%;
+ margin-bottom: 50px;
+}
+.Indonesia,
+.Maldives{
+ margin-bottom: 50px;
 }
  }
