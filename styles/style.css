@@ -375,10 +375,14 @@ width:90%;
 padding-right: 18px;
 padding-left: 5px;
 }
+.Popular-tours{
+  padding: 0;
+}
 .popular-tours-section,
 .destination-section
 {
- width: auto;
+width: 100%;
+padding: 5px 5xp 5px 5px;
 }
 .container
 {
@@ -400,7 +404,6 @@ margin: 0;
 display: grid;
 width: 100%;
 }
-
 .Bangladesh,
 .Bandarban,
 .Kashmir,
