@@ -493,6 +493,9 @@ margin-right: 0px;
 margin-left: 0px;
 }
   /* form setion */
+  .form{
+    width: 80%;
+  }
 .form-section
 {
 padding-left: 0;
@@ -503,6 +506,20 @@ margin: 0;
 display: grid;
 width: 100%;
 }
+/* discount part */
+.discount-image1{
+  width: 100%;
+  margin-bottom:140px;
+}
+.btn-button{
+  width: 40%;
+margin-top: -90px;
+margin-left: -80px;
+}
+
+
+
+
 .Bangladesh,
 .Bandarban,
 .Kashmir,
